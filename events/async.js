@@ -31,8 +31,9 @@ const async_event_2 = new AsynchronousEvent();
 async_event.find(3, [1,2,3,4])
 .on('found', ( index => console.log(`1. val found at ${index}`)))
 
-/* The best way to register a listener for a synchronous event is to 
-do so before triggering the event
+/* 
+    The best way to register a listener for a synchronous event is to 
+    do so before triggering the event
 */
 async_event_2
 .on('found', ( index => console.log(`2. val found at ${index}`)))
