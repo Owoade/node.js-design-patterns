@@ -1,9 +1,9 @@
 import fs from 'fs';
-/* 
-    One of the most dangerous situations is to have an API that behaves synchronously 
-    under certain conditions and asynchronously under others. Let's take the following 
-    code as an example:
-*/
+// /* 
+//     One of the most dangerous situations is to have an API that behaves synchronously 
+//     under certain conditions and asynchronously under others. Let's take the following 
+//     code as an example:
+// */
 
 const cache = new Map();
 
